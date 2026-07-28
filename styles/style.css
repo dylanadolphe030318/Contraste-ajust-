@@ -37,7 +37,7 @@ img {
 }
 
 .site-header {
-  background: linear-gradient(135deg, var(--accent), #1c4f8c);
+  background: #000000;
   color: #ffffff;
   padding: 5rem 0 4rem;
   text-align: center;
