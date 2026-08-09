@@ -26,14 +26,10 @@ button {
     cursor: pointer;
 }
 
-.menu-icon {
+#menu-button img {
     display: block;
-    width: 32px;
+    width: 24px;
     height: auto;
-}
-
-.menu-icon rect {
-    fill: #5D6175;
 }
 
 /* Navigation */
@@ -95,7 +91,7 @@ header {
     justify-content: space-between;
     gap: 40px;
     background-color: #EDF7FA;
-    border-radius: 40px;
+    border-radius: 16px;
     box-shadow: 0 30px 80px rgba(33, 36, 61, 0.06);
     min-height: 540px;
 }
@@ -144,7 +140,7 @@ h1 {
     text-decoration: none;
     font-size: 18px;
     padding: 16px 28px;
-    border-radius: 16px;
+    border-radius: 10px;
     transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
@@ -172,6 +168,13 @@ h1 {
     padding: 60px 20px;
 }
 
+#blog h2 {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #blog-content,
 #articles,
 #projets,
@@ -190,7 +193,7 @@ h1 {
 
 .article-blog {
     background: #FFFFFF;
-    border-radius: 24px;
+    border-radius: 12px;
     padding: 28px;
     width: 100%;
     min-width: 0;
@@ -230,7 +233,7 @@ h1 {
     margin-bottom: 40px;
     background-color: #FFFFFF;
     padding: 32px;
-    border-radius: 32px;
+    border-radius: 16px;
     box-shadow: 0 25px 70px rgba(33, 36, 61, 0.08);
 }
 
@@ -242,7 +245,7 @@ h1 {
 .projet-image {
     width: 100%;
     max-width: 260px;
-    border-radius: 24px;
+    border-radius: 12px;
 }
 
 .date-type {
@@ -262,7 +265,7 @@ h1 {
 .projet-date {
     background-color: #142850;
     color: #FFFFFF;
-    border-radius: 16px;
+    border-radius: 8px;
     padding: 10px 18px;
     font-weight: 900;
     font-size: 16px;
@@ -272,7 +275,7 @@ h1 {
     color: #142850;
     font-size: 16px;
     background-color: rgba(20, 40, 80, 0.08);
-    border-radius: 16px;
+    border-radius: 8px;
     padding: 10px 18px;
 }
 
@@ -299,7 +302,7 @@ h1 {
     flex: none;
     min-width: 0;
     padding: 32px;
-    border-radius: 24px;
+    border-radius: 12px;
     background-color: #FFFFFF;
     box-shadow: 0 20px 60px rgba(33, 36, 61, 0.06);
 }
@@ -335,7 +338,7 @@ form {
     gap: 16px;
     min-width: 0;
     padding: 32px;
-    border-radius: 24px;
+    border-radius: 12px;
     background-color: #FFFFFF;
     box-shadow: 0 20px 60px rgba(33, 36, 61, 0.06);
 }
@@ -350,7 +353,7 @@ form textarea {
     width: 100%;
     background-color: #F7F7F7;
     border: 1px solid #E4E4E4;
-    border-radius: 12px;
+    border-radius: 8px;
     padding: 14px 16px;
     font-size: 16px;
     color: #21243D;
@@ -365,7 +368,7 @@ form button {
     width: 100%;
     background-color: #000000;
     color: #FFFFFF;
-    border-radius: 12px;
+    border-radius: 8px;
     padding: 16px;
     font-size: 18px;
 }
@@ -422,9 +425,9 @@ form button {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 48px;
-        height: 48px;
-        padding: 8px;
+        width: 44px;
+        height: 44px;
+        padding: 10px;
         flex-shrink: 0;
     }
 
@@ -438,7 +441,7 @@ form button {
         align-items: center;
         gap: 18px;
         background-color: #F5F8FB;
-        border-radius: 16px;
+        border-radius: 10px;
         padding: 20px;
         box-shadow: 0 20px 50px rgba(33, 36, 61, 0.12);
         z-index: 20;
@@ -520,4 +523,3 @@ form button {
         width: 100%;
     }
 }
-
