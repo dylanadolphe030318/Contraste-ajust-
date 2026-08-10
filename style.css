@@ -1,4 +1,4 @@
-﻿/* General styles */
+/* General styles */
 * {
     box-sizing: border-box;
 }
@@ -329,7 +329,12 @@ h1 {
 
 #icons-socials img {
     width: 32px;
-    height: auto;
+    height: 32px;
+    object-fit: contain;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    backface-visibility: hidden;
+    transform: translateZ(0);
 }
 
 form {
