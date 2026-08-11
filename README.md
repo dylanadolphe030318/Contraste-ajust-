@@ -13,6 +13,7 @@ Ce projet est une vitrine web statique dédiée à un portfolio personnel de Tho
 - HTML5
 - CSS3
 - Images au format WebP et PNG
+- Polices Google Fonts : Heebo
 
 ## Structure du projet
 
